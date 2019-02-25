@@ -1,0 +1,75 @@
+<html>
+	
+	<head>
+		<title>BD Projeto 3 Index</title>
+  	<meta charset="UTF-8">
+  	<style>
+  		body {margin-left: 40px;}
+  		h3 {margin-left: -20px;}
+  		.block {height: 300px; width: 370px; display: inline-block; vertical-align: top; padding: 30px; margin: 10px; margin-left: 0px;border-style: solid; border-color: grey;}
+  	</style>
+	</head>
+
+
+   <body>
+     	<div class="block">
+  			<h3>Locais</h3>
+  		  	<a href="request.php?arg=local-in">Inserir</a><br>
+  		  	<a href="request.php?arg=local-rm">Remover</a>
+     	</div>
+
+  		<div class="block">
+  			<h3>Eventos de Emergência</h3>
+	  		<a href="request.php?arg=emergency-in">Inserir</a><br>
+	  		<a href="request.php?arg=emergency-rm">Remover</a>
+	  	</div>
+
+  		<div class="block">
+  			<h3>Processos de socorro</h3>
+	  		<a href="request.php?arg=proc-in">Inserir</a><br>
+	  		<a href="request.php?arg=proc-rm">Remover</a><br>
+	  		<a href="request.php?arg=proc-ls">Listar</a><br><br>
+
+			<a href="request.php?arg=proc-meio">Associar a Meio</a><br>
+			<a href="request.php?arg=proc-event">Associar a Evento de Emergência</a><br><br>
+		</div>
+	  		
+	  	<div class="block">
+	  		<h3>Meios</h3>
+	  		<a href="request.php?arg=meio-in">Inserir</a><br>
+	  		<a href="request.php?arg=meio-rm">Remover</a><br>
+	  		<a href="request.php?arg=meio-ls">Listar</a><br><br>
+	  		<a href="request.php?arg=proc-ls-meio">Listar Meios de um Processo</a>
+	  	</div>
+	  		
+	  	<div class="block">
+	  		<h3>Entidades</h3>
+	  		<a href="request.php?arg=ent-in">Inserir</a><br>
+	  		<a href="request.php?arg=ent-rm">Remover</a>
+	  	</div>
+	  		
+	  	<div class="block">
+	  		<h3>Meios de Combate</h3>
+	  		<a href="request.php?arg=meio-c-in">Inserir</a><br>
+	  		<a href="request.php?arg=meio-c-ed">Editar</a><br>
+	  		<a href="request.php?arg=meio-c-rm">Remover</a>
+	  	</div>
+
+	  	<div class="block">
+	  		<h3>Meios de Apoio</h3>
+	  		<a href="request.php?arg=meio-a-in">Inserir</a><br>
+	  		<a href="request.php?arg=meio-a-ed">Editar</a><br>
+	  		<a href="request.php?arg=meio-a-rm">Remover</a>
+	  	</div>
+	  		
+	  	<div class="block">
+	  		<h3>Meios de Socorro</h3>
+	  		<a href="request.php?arg=meio-s-in">Inserir</a><br>
+	  		<a href="request.php?arg=meio-s-ed">Editar</a><br>
+	  		<a href="request.php?arg=meio-s-rm">Remover</a><br><br>
+
+	  		<a href="request.php?arg=proc-ls-local">Listar Meios de Socorro num Local</a>
+	  	</div>
+
+   </body>
+</html>
